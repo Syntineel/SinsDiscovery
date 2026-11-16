@@ -46,8 +46,13 @@ h2 {
 	text-align: center;
 }
 
-.favorieten {
-	display: flex;
-	gap: 1rem;
-	color: red;
+.picturestyle {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 20px;
+  width: 40%;
+  margin: 0%;
 }
