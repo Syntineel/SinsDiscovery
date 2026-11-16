@@ -2,8 +2,38 @@ body {
 	font-family: system-ui, sans-serif;
 	color: Black;
 	line-height: 1.6;
-	background-color: aquamarine;
+	background-color: rgb(89, 200, 236);
 }
+
+.indexmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004f52;
+  }
+  
+  .indexmenu li {
+    float: left;
+  }
+  
+  .indexmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .indexmenu li a:hover:not(.active) {
+    background-color: #fd005493;
+  }
+  
+  .active {
+    background-color: #abee9096;
+  }
+
+
 
 h1 {
 	color: Red;
