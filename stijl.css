@@ -1,38 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	font-family: system-ui, sans-serif;
 	color: Black;
 	line-height: 1.6;
 	background-color: rgb(89, 200, 236);
 }
-
-.indexmenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #004f52;
-  }
-  
-  .indexmenu li {
-    float: left;
-  }
-  
-  .indexmenu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .indexmenu li a:hover:not(.active) {
-    background-color: #fd005493;
-  }
-  
-  .active {
-    background-color: #abee9096;
-  }
-
 
 
 h1 {
@@ -46,7 +21,7 @@ h2 {
 	text-align: center;
 }
 
-.picturestyle {
+.picturestyle{
   display: flex;
   justify-content: center;
 }
@@ -56,3 +31,26 @@ img {
   width: 40%;
   margin: 0%;
 }
+
+/*------------------------------Opdrachten code/*------------------------------*/
+/*opdracht 13*/
+.kaartenrij {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.kaart {
+  flex: 1 1 250pxp;
+  padding: 1rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+
+.kaart img {
+width: 250px;
+height: 400px;
+margin: 0%;
+}
+/*------------------------------Einde opdrachten code/*------------------------------*/
