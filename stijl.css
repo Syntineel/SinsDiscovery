@@ -82,4 +82,12 @@ body        { font-size: 1rem;}
   }
 }
 
+/*opdracht 16*/
+
+.galerij {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
 /*------------------------------Einde opdrachten code/*------------------------------*/
